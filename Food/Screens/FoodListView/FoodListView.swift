@@ -22,6 +22,7 @@ struct FoodListView: View {
                             }
                     }
                 }
+                .listStyle(.plain)
                     .navigationTitle("Food")
                     .disabled(vm.isShowDetail)
             }
