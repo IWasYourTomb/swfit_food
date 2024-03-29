@@ -27,6 +27,9 @@
 		B1553ECD2BB5A590002C6BB0 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1553ECC2BB5A590002C6BB0 /* FoodDetailView.swift */; };
 		B1553ED02BB5AEA7002C6BB0 /* AddToOrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1553ECF2BB5AEA7002C6BB0 /* AddToOrderButton.swift */; };
 		B1553ED22BB5AF51002C6BB0 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1553ED12BB5AF51002C6BB0 /* DismissButton.swift */; };
+		B1553ED52BB5B51A002C6BB0 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1553ED42BB5B51A002C6BB0 /* AccountViewModel.swift */; };
+		B1553ED72BB61A13002C6BB0 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1553ED62BB61A13002C6BB0 /* StringExtension.swift */; };
+		B167BC362BB6381800F184AD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167BC352BB6381800F184AD /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,9 @@
 		B1553ECC2BB5A590002C6BB0 /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailView.swift; sourceTree = "<group>"; };
 		B1553ECF2BB5AEA7002C6BB0 /* AddToOrderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToOrderButton.swift; sourceTree = "<group>"; };
 		B1553ED12BB5AF51002C6BB0 /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		B1553ED42BB5B51A002C6BB0 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		B1553ED62BB61A13002C6BB0 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		B167BC352BB6381800F184AD /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 		B1553EA52BB4F2D0002C6BB0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B167BC342BB6380500F184AD /* UserModel */,
 				B1553EBC2BB59CBC002C6BB0 /* FoodModel */,
 			);
 			path = Model;
@@ -143,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				B1553EBA2BB594F4002C6BB0 /* ColorExtension.swift */,
+				B1553ED62BB61A13002C6BB0 /* StringExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -169,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				B1553EA12BB4EEC0002C6BB0 /* AccountView.swift */,
+				B1553ED42BB5B51A002C6BB0 /* AccountViewModel.swift */,
 			);
 			path = AccountView;
 			sourceTree = "<group>";
@@ -233,6 +242,14 @@
 				B1553ED12BB5AF51002C6BB0 /* DismissButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		B167BC342BB6380500F184AD /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				B167BC352BB6381800F184AD /* UserModel.swift */,
+			);
+			path = UserModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1553EA22BB4EEC0002C6BB0 /* AccountView.swift in Sources */,
+				B167BC362BB6381800F184AD /* UserModel.swift in Sources */,
 				B1553EA02BB4EEB2002C6BB0 /* FoodListView.swift in Sources */,
 				B1553E932BB4EE40002C6BB0 /* FoodTabView.swift in Sources */,
 				B1553EC32BB59E6C002C6BB0 /* RemoteImage.swift in Sources */,
@@ -315,7 +333,9 @@
 				B1553EA72BB4F35D002C6BB0 /* FoodModel.swift in Sources */,
 				B1553EB72BB593A3002C6BB0 /* LoadingView.swift in Sources */,
 				B1553EC12BB59DB5002C6BB0 /* ImageViewModel.swift in Sources */,
+				B1553ED52BB5B51A002C6BB0 /* AccountViewModel.swift in Sources */,
 				B1553ED02BB5AEA7002C6BB0 /* AddToOrderButton.swift in Sources */,
+				B1553ED72BB61A13002C6BB0 /* StringExtension.swift in Sources */,
 				B1553EB02BB4F92C002C6BB0 /* FoodListViewModel.swift in Sources */,
 				B1553EAD2BB4F594002C6BB0 /* ApiError.swift in Sources */,
 				B1553E912BB4EE40002C6BB0 /* FoodApp.swift in Sources */,
