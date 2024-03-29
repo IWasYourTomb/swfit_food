@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AddToOrderButton: View {
+struct OrderButton: View {
     let title: LocalizedStringKey
     
     var body: some View {
@@ -22,5 +22,5 @@ struct AddToOrderButton: View {
 }
 
 #Preview {
-    AddToOrderButton(title: "Add To Order")
+    OrderButton(title: "Add To Order")
 }
