@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1393B392BB89C4D00198586 /* FormTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1393B382BB89C4D00198586 /* FormTextFiled.swift */; };
 		B1553E912BB4EE40002C6BB0 /* FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1553E902BB4EE40002C6BB0 /* FoodApp.swift */; };
 		B1553E932BB4EE40002C6BB0 /* FoodTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1553E922BB4EE40002C6BB0 /* FoodTabView.swift */; };
 		B1553E952BB4EE42002C6BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1553E942BB4EE42002C6BB0 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1393B382BB89C4D00198586 /* FormTextFiled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextFiled.swift; sourceTree = "<group>"; };
 		B1553E8D2BB4EE40002C6BB0 /* Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Food.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1553E902BB4EE40002C6BB0 /* FoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp.swift; sourceTree = "<group>"; };
 		B1553E922BB4EE40002C6BB0 /* FoodTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTabView.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 		B1553EC52BB5A408002C6BB0 /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
+				B1393B382BB89C4D00198586 /* FormTextFiled.swift */,
 				B1553EA12BB4EEC0002C6BB0 /* AccountView.swift */,
 				B1553ED42BB5B51A002C6BB0 /* AccountViewModel.swift */,
 			);
@@ -347,6 +350,7 @@
 				B1553EA22BB4EEC0002C6BB0 /* AccountView.swift in Sources */,
 				B167BC362BB6381800F184AD /* User.swift in Sources */,
 				B1553EA02BB4EEB2002C6BB0 /* FoodListView.swift in Sources */,
+				B1393B392BB89C4D00198586 /* FormTextFiled.swift in Sources */,
 				B1553E932BB4EE40002C6BB0 /* FoodTabView.swift in Sources */,
 				B1553EC32BB59E6C002C6BB0 /* RemoteImage.swift in Sources */,
 				B1553EAA2BB4F4E1002C6BB0 /* NetworkManager.swift in Sources */,
