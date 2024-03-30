@@ -19,7 +19,7 @@ struct OrderView: View {
                             FoodListItem(food: food)
                         }
                         .onDelete(perform: { indexSet in
-                            order.delet(at: indexSet)
+                            order.delete(at: indexSet)
                         })
                     }
                     .listStyle(PlainListStyle())
